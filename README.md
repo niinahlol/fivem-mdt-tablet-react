@@ -1,16 +1,45 @@
-# React + Vite
+# 🚔 FiveM MDT - Sistema Policial Avançado (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Currently, two official plugins are available:
+Este é um Mobile Data Terminal (MDT) desenvolvido para servidores de **FiveM Roleplay**. O foco deste projeto foi criar uma interface moderna, intuitiva e funcional para a Polícia Militar (baseado no padrão PERJ).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+### ⚖️ Aba Justiça (Calculadora de Penas)
+- Seleção dinâmica de crimes do Código Penal.
+- Cálculo automático de **meses de prisão** e **valor de multa**.
+- Sistema de atenuantes (ex: Confissão) com redução automática de 20% no valor final.
+- Botão de envio direto para processamento (via NUI Callback).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔍 Busca de Cidadãos
+- Consulta por Passaporte (ID) ou Nome.
+- Visualização de ficha criminal e histórico de passagens.
+- Verificação de status (Ficha Limpa / Procurado).
+
+### 🚗 Registro de Veículos
+- Consulta de placas em tempo real.
+- Sistema de **Alerta de Roubo/Furto** com feedback visual imediato no sistema.
+- Histórico de infrações associadas ao veículo.
+
+### 📝 Boletim de Ocorrência (B.O)
+- Redação de relatórios detalhados.
+- Registro de oficiais envolvidos e suspeitos detidos.
+- Sistema de notificações de "Sucesso" ao salvar.
+
+## 🚀 Tecnologias Utilizadas
+
+- **React.js** (Componentização e Estados)
+- **Vite** (Build ágil e performance)
+- **Lucide-React** (Ícones modernos e leves)
+- **CSS3 Moderno** (Flexbox, Grid e Variáveis globais)
+
+## 🔧 Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
