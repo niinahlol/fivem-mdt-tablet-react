@@ -38,8 +38,3 @@ Este é um Mobile Data Terminal (MDT) desenvolvido para servidores de **FiveM Ro
 - **Lucide-React** (Ícones modernos e leves)
 - **CSS3 Moderno** (Flexbox, Grid e Variáveis globais)
 
-## 🔧 Como Rodar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git)
